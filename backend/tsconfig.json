@@ -1,27 +1,14 @@
 {
   "compilerOptions": {
-    /* 🔹 Diretórios de entrada e saída */
-    "rootDir": "./src",
-    "outDir": "./dist",
-
-    /* 🔹 Ambiente e formato de módulo */
     "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "node",
-
-    /* 🔹 Tipagem */
-    "types": ["node"],
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-
-    /* 🔹 Regras de qualidade */
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "noImplicitAny": false,
-
-    /* 🔹 Mapas para debug */
-    "sourceMap": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"]
+  }
 }

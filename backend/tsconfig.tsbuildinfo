@@ -1,0 +1,1 @@
+{"root":["./src/server.ts","./src/config/db.ts","./src/controllers/taskcontroller.ts","./src/models/task.ts","./src/routes/taskroutes.ts"],"version":"5.9.3"}
