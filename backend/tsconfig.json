@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     /* 🔹 Diretórios de entrada e saída */
-    "rootDir": "src",
-    "outDir": "dist",
+    "rootDir": "./src",
+    "outDir": "./dist",
 
     /* 🔹 Ambiente e formato de módulo */
     "target": "ES2020",
