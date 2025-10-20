@@ -1,0 +1,9 @@
+{
+  "name": "projeto-fullstack",
+  "private": true,
+  "scripts": {
+    "dev:front": "npm run dev --prefix frontend",
+    "dev:back": "npm run dev --prefix backend",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
